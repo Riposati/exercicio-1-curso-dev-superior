@@ -6,6 +6,13 @@ import java.time.Instant;
 
 public class ClientDTO {
 
+    private Long id;
+    private String name;
+    private String cpf;
+    private Double income;
+    private Instant birthDate;
+    private Integer children;
+
     public ClientDTO() {}
 
     public ClientDTO(Long id, String name, String cpf, Double income, Instant birthDate, Integer children) {
@@ -16,13 +23,6 @@ public class ClientDTO {
         this.birthDate = birthDate;
         this.children = children;
     }
-
-    private Long id;
-    private String name;
-    private String cpf;
-    private Double income;
-    private Instant birthDate;
-    private Integer children;
 
     public Long getId() {
         return id;
