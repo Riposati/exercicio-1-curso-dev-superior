@@ -1,0 +1,3 @@
+INSERT INTO tb_client (name, cpf, income, birth_date, children, created_At) VALUES ('João Beltrano Ciclano', '574.233.430-30', 1500,NOW(), 0, NOW());
+INSERT INTO tb_client (name, cpf, income, birth_date, children, created_At) VALUES ('José Fulano Beltrano', '486.550.970-47', 800,NOW(), 2, NOW());
+INSERT INTO tb_client (name, cpf, income, birth_date, children, created_At) VALUES ('Marcos Beltrano Ciclano', '869.395.030-48', 300,NOW(), 4, NOW());
